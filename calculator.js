@@ -5,7 +5,7 @@ let result = "";
 
 
 const display = document.getElementById("display");
-const buttons = document.querySelectorAll("#buttons button");
+const buttons = document.querySelectorAll(".buttons button");
 
 buttons.forEach((button) => {
     button.addEventListener("click", handleButtonClick);
@@ -17,7 +17,7 @@ function handleButtonClick(e) {
     console.log("Button clicked:", clickedButton);
 
     if (!isNaN(clickedButton)) {
-        
+
         if (result !== "" && !isNaN(clickedButton) && operator ==="") {
         num1 = clickedButton;
         display.value = num1;
