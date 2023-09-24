@@ -57,7 +57,7 @@ function handleButtonClick(e) {
         console.log("num1: ", num1)
         console.log("num2: ", num2)
         console.log("operator: ", operator)
-    } else if (clickedButton === "clear") {
+    } else if (clickedButton === "C") {
         num1 = "",
             num2 = "";
         operator = "";
